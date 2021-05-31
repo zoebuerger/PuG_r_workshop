@@ -120,6 +120,9 @@ single_number <- 2
 
 # 4.3) Assign something to a variable with a name of your choice.
 a <- 12
+cat <- "dog"
+list <- 1:10
+list + cat
 
 # 4.4) Examine what happens here. What is the result? What do you think will single_number
 #      contain now? 2 or 6?
@@ -135,6 +138,11 @@ multiplied <- number2 * number6
 multiplied
 
 ##Wird nur gespeichert wenn man es einer Variable zuweist, ansonsten rechnet er es zwar aus aber es wird nicht gespeichert
+
+## VARIABLE LOESCHEN: rm(cat)
+rm(cat)
+rm(a)
+rm(list)
 
 #### THIS IS A GIT HUB CHECKPOINT ####
 
