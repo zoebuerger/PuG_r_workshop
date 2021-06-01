@@ -173,7 +173,7 @@ vec_log <- c(TRUE,FALSE,TRUE)
 
 1.3) We saw that the `c()` function combines elements into a vector, but it can also combine vectors! Try to combine some of the vectors you previously created using the `c()` function.
 ```{r}
-vec_combined <- c(vec2, vec_car)
+vec_combined <- c(vec2, animals)
 vec_combined
 ```
 
@@ -680,7 +680,7 @@ summary(c(1, 2, NA, 4, 3, 6), na.rm = TRUE) #both give same info
 
 ```{r}
 table(c(1, 2, NA, 4, 3, 6))
-table(c(1, 2, NA, 4, 3, 6), na.rm = TRUE) #this does not work
+#table(c(1, 2, NA, 4, 3, 6), na.rm = TRUE) #this does not work
 ?table
 ```
 
@@ -699,7 +699,7 @@ tail(c(1, 2, NA, 4, 3, 6), na.rm = TRUE) #both work
 
 ```{r}
 length(c(1, 2, NA, 4, 3, 6))
-length(c(1, 2, NA, 4, 3, 6), na.rm = TRUE)
+#length(c(1, 2, NA, 4, 3, 6), na.rm = TRUE)
 ```
 
 

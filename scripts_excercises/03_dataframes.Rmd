@@ -333,6 +333,9 @@ table(nerd$country)
 
 2.4) What happens if you use `summary()` on the whole data frame?
 
+```{r}
+summary (nerd)
+```
 
 
 2.5) Try `table()` on the gender column. Does this help? Can you find more information in the codebook?
